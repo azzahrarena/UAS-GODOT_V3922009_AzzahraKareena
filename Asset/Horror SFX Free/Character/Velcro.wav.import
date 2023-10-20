@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://vmtki7eh6u2s"
+path="res://.godot/imported/Velcro.wav-abfd42bbfbdbfe55de2fb662ba46f04c.sample"
+
+[deps]
+
+source_file="res://Asset/Horror SFX Free/Character/Velcro.wav"
+dest_files=["res://.godot/imported/Velcro.wav-abfd42bbfbdbfe55de2fb662ba46f04c.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

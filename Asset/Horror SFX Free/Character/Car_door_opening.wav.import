@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://r3k3fyu6fybh"
+path="res://.godot/imported/Car_door_opening.wav-e6e7fdc77c62c9dfb72fc130bbd4239a.sample"
+
+[deps]
+
+source_file="res://Asset/Horror SFX Free/Character/Car_door_opening.wav"
+dest_files=["res://.godot/imported/Car_door_opening.wav-e6e7fdc77c62c9dfb72fc130bbd4239a.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

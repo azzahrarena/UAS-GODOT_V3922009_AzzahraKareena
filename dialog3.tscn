@@ -1,0 +1,83 @@
+[gd_scene load_steps=9 format=3 uid="uid://ciff0mbyxe5kr"]
+
+[ext_resource type="Texture2D" uid="uid://llm5sqc3744c" path="res://Asset/hallway (4).png" id="1_0tsiu"]
+[ext_resource type="Script" path="res://dialog3.gd" id="1_stftd"]
+[ext_resource type="Texture2D" uid="uid://clwn1c0wppwpc" path="res://Asset/Chara/chara-hani-dialog.png" id="2_tke85"]
+[ext_resource type="Texture2D" uid="uid://c0v4t6pgkidi2" path="res://Asset/Chara/chara-nana-dialog.png" id="3_ojq2e"]
+[ext_resource type="Texture2D" uid="uid://bf3nym10ksyev" path="res://Asset/159825-vector-bubble-chat-free-png-hq.png" id="4_i0r47"]
+[ext_resource type="FontFile" uid="uid://448karyyn877" path="res://Asset/Font/PixelGameFont.ttf" id="5_ldybu"]
+[ext_resource type="FontFile" uid="uid://dfyg6bq4nwdkf" path="res://Asset/HelpMe.otf" id="6_aumi4"]
+[ext_resource type="AudioStream" uid="uid://c26ypsex11567" path="res://Asset/scary-spooky-creepy-horror-ambient-dark-piano-cinematic-115052.mp3" id="8_y0otv"]
+
+[node name="dialog3" type="Node2D"]
+script = ExtResource("1_stftd")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(580, 324.5)
+scale = Vector2(0.645089, 0.629883)
+texture = ExtResource("1_0tsiu")
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+position = Vector2(138, 390)
+scale = Vector2(3.85556, 3.91827)
+texture = ExtResource("2_tke85")
+
+[node name="Sprite2D3" type="Sprite2D" parent="."]
+texture_filter = 5
+position = Vector2(897, 393)
+scale = Vector2(3.85556, 3.91827)
+texture = ExtResource("3_ojq2e")
+
+[node name="Sprite2D4" type="Sprite2D" parent="."]
+texture_filter = 3
+position = Vector2(520.051, 167.446)
+scale = Vector2(0.819332, 0.722067)
+texture = ExtResource("4_i0r47")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+offset_left = 309.0
+offset_top = 72.0
+offset_right = 731.0
+offset_bottom = 172.0
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_fonts/normal_font = ExtResource("5_ldybu")
+theme_override_font_sizes/normal_font_size = 25
+text = "Okeee, nanti habis isya ya kita 
+berangkat ke kuburan belakang kampus"
+metadata/_edit_use_anchors_ = true
+
+[node name="Label" type="Label" parent="."]
+offset_left = 102.0
+offset_top = 565.0
+offset_right = 174.0
+offset_bottom = 601.0
+theme_override_fonts/font = ExtResource("5_ldybu")
+theme_override_font_sizes/font_size = 30
+text = "Nana"
+metadata/_edit_use_anchors_ = true
+
+[node name="Label2" type="Label" parent="."]
+offset_left = 896.0
+offset_top = 571.0
+offset_right = 968.0
+offset_bottom = 607.0
+theme_override_fonts/font = ExtResource("5_ldybu")
+theme_override_font_sizes/font_size = 30
+text = "Hani"
+metadata/_edit_use_anchors_ = true
+
+[node name="Button" type="Button" parent="."]
+offset_left = 1020.0
+offset_top = 581.0
+offset_right = 1095.0
+offset_bottom = 623.0
+theme_override_fonts/font = ExtResource("6_aumi4")
+theme_override_font_sizes/font_size = 30
+text = "next"
+metadata/_edit_use_anchors_ = true
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("8_y0otv")
+autoplay = true
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

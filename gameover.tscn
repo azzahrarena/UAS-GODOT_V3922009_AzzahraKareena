@@ -1,0 +1,40 @@
+[gd_scene load_steps=4 format=3 uid="uid://cmeroeepfffaf"]
+
+[ext_resource type="Texture2D" uid="uid://caw87snlqx0gh" path="res://Asset/jumpscare.jpg" id="1_nuja7"]
+[ext_resource type="FontFile" uid="uid://b4fqhe0dtmwxx" path="res://Asset/who asks satan.ttf" id="2_5niaf"]
+[ext_resource type="FontFile" uid="uid://duyv1phovr5lv" path="res://Asset/Font/Stranger back in the Night.ttf" id="3_tk64f"]
+
+[node name="gameover" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(555, 319)
+scale = Vector2(1.22558, 1.38632)
+texture = ExtResource("1_nuja7")
+
+[node name="Label" type="Label" parent="."]
+offset_left = 256.0
+offset_top = 128.0
+offset_right = 907.0
+offset_bottom = 313.0
+theme_override_colors/font_color = Color(1, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_5niaf")
+theme_override_font_sizes/font_size = 200
+text = "GAME OVER"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+offset_left = 462.0
+offset_top = 422.0
+offset_right = 722.0
+offset_bottom = 510.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+
+[node name="Button" type="Button" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("3_tk64f")
+theme_override_font_sizes/font_size = 80
+text = "TRY AGAIN"

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b5rlqfowjof32"
+path="res://.godot/imported/Camera_taking picture_2.wav-35948166dd63fa44f5b2eb7a9abcf8e0.sample"
+
+[deps]
+
+source_file="res://Asset/Horror SFX Free/Character/Camera_taking picture_2.wav"
+dest_files=["res://.godot/imported/Camera_taking picture_2.wav-35948166dd63fa44f5b2eb7a9abcf8e0.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

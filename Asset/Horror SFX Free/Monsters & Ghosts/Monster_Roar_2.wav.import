@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dfwu2caaj5f3k"
+path="res://.godot/imported/Monster_Roar_2.wav-9fa1c71e2207769a1769557fd6d96aa0.sample"
+
+[deps]
+
+source_file="res://Asset/Horror SFX Free/Monsters & Ghosts/Monster_Roar_2.wav"
+dest_files=["res://.godot/imported/Monster_Roar_2.wav-9fa1c71e2207769a1769557fd6d96aa0.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

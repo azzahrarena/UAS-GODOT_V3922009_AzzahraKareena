@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dvlkhfay8p534"
+path="res://.godot/imported/Robotic_bass.wav-35d38dc95d99e8b70a1a248477925df4.sample"
+
+[deps]
+
+source_file="res://Asset/Horror SFX Free/Monsters & Ghosts/Robotic_bass.wav"
+dest_files=["res://.godot/imported/Robotic_bass.wav-35d38dc95d99e8b70a1a248477925df4.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

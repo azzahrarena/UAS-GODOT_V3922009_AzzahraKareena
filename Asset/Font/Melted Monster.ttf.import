@@ -1,0 +1,33 @@
+[remap]
+
+importer="font_data_dynamic"
+type="FontFile"
+uid="uid://ci0ocnpkew0pp"
+path="res://.godot/imported/Melted Monster.ttf-67e5e01586121dd5f79e9321e0d4fa15.fontdata"
+
+[deps]
+
+source_file="res://Asset/Font/Melted Monster.ttf"
+dest_files=["res://.godot/imported/Melted Monster.ttf-67e5e01586121dd5f79e9321e0d4fa15.fontdata"]
+
+[params]
+
+Rendering=null
+antialiasing=1
+generate_mipmaps=false
+multichannel_signed_distance_field=false
+msdf_pixel_range=8
+msdf_size=48
+allow_system_fallback=true
+force_autohinter=false
+hinting=1
+subpixel_positioning=1
+oversampling=0.0
+Fallbacks=null
+fallbacks=[]
+Compress=null
+compress=true
+preload=[]
+language_support={}
+script_support={}
+opentype_features={}

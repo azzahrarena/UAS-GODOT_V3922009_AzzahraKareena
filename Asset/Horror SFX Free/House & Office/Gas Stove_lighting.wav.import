@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://36pnnmq1b00c"
+path="res://.godot/imported/Gas Stove_lighting.wav-8fcadf39693fb56ed84a4a5d98f904dc.sample"
+
+[deps]
+
+source_file="res://Asset/Horror SFX Free/House & Office/Gas Stove_lighting.wav"
+dest_files=["res://.godot/imported/Gas Stove_lighting.wav-8fcadf39693fb56ed84a4a5d98f904dc.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

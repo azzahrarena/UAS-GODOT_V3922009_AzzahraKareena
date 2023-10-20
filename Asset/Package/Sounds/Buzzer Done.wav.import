@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ccyi4rlnl3ymm"
+path="res://.godot/imported/Buzzer Done.wav-6a8a3c1c3ae3a27aa40119951ecd6389.sample"
+
+[deps]
+
+source_file="res://Asset/Package/Sounds/Buzzer Done.wav"
+dest_files=["res://.godot/imported/Buzzer Done.wav-6a8a3c1c3ae3a27aa40119951ecd6389.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

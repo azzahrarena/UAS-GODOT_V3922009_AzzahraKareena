@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cth53uct1lgph"
+path="res://.godot/imported/robotic_hiss.wav-8094aefe20e9aa77f8b154b4c5657cac.sample"
+
+[deps]
+
+source_file="res://Asset/Horror SFX Free/Monsters & Ghosts/robotic_hiss.wav"
+dest_files=["res://.godot/imported/robotic_hiss.wav-8094aefe20e9aa77f8b154b4c5657cac.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

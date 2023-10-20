@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://djnr0i5ky7wax"
+path="res://.godot/imported/Bag_searching.wav-0c7d16a6d6dae6d5823c43d622dd16f5.sample"
+
+[deps]
+
+source_file="res://Asset/Horror SFX Free/Character/Bag_searching.wav"
+dest_files=["res://.godot/imported/Bag_searching.wav-0c7d16a6d6dae6d5823c43d622dd16f5.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

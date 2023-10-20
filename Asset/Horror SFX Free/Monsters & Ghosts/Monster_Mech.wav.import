@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cqffwebsdl8dn"
+path="res://.godot/imported/Monster_Mech.wav-9cc31f095b4015e427d2646502395f06.sample"
+
+[deps]
+
+source_file="res://Asset/Horror SFX Free/Monsters & Ghosts/Monster_Mech.wav"
+dest_files=["res://.godot/imported/Monster_Mech.wav-9cc31f095b4015e427d2646502395f06.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

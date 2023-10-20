@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dg23aw2fc4jp1"
+path="res://.godot/imported/Ghost chior.wav-e58f16b21184fbb75f2151ebf747d648.sample"
+
+[deps]
+
+source_file="res://Asset/Horror SFX Free/Monsters & Ghosts/Ghost chior.wav"
+dest_files=["res://.godot/imported/Ghost chior.wav-e58f16b21184fbb75f2151ebf747d648.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

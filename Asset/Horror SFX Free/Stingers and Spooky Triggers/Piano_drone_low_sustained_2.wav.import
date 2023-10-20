@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dnh74dcekosxf"
+path="res://.godot/imported/Piano_drone_low_sustained_2.wav-a40046f62cb85d40fd87c4350886ce9e.sample"
+
+[deps]
+
+source_file="res://Asset/Horror SFX Free/Stingers and Spooky Triggers/Piano_drone_low_sustained_2.wav"
+dest_files=["res://.godot/imported/Piano_drone_low_sustained_2.wav-a40046f62cb85d40fd87c4350886ce9e.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0
