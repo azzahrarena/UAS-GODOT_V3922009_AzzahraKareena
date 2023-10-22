@@ -26,12 +26,3 @@ Kelompok 3 - TI D - Kampus Keramat
 * [x]  Background Music
 * [x]  Sound FX
 
-
-### :art: Color Reference
-| Color | Hex |
-| --------------- | ---------------------------------------------------------------- |
-| Primary Color | ![#1e2727](https://via.placeholder.com/10/1e2727?text=+) #1e2727 |
-| Secondary Color | ![#4f6890](https://via.placeholder.com/10/4f6890?text=+) #4f6890 |
-| Accent Color | ![#00ADB5](https://via.placeholder.com/10/00ADB5?text=+) #00ADB5 |
-| Text Color | ![#241010](https://via.placeholder.com/10/241010?text=+) #241010 |
-
