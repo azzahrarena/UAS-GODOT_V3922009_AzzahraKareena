@@ -12,7 +12,7 @@ func _process(delta):
 	pass
 
 func _on_button_pressed():
-	get_tree().change_scene_to_file("res://main.tscn")
+	get_tree().change_scene_to_file("res://menu-level.tscn")
 	
 func play_music():
 	# Load the audio stream (musik) yang ingin Anda putar

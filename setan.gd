@@ -8,6 +8,11 @@ enum State {
 }
 
 const WALK_SPEED = 100.0
+@export var MAX_SPEED = 150
+@export var target: Node2D
+
+@onready var navigation_agent := $NavigationAgent2D as NavigationAgent2D
+
 
 var _state := State.walk
 
@@ -29,6 +34,9 @@ func _physics_process(delta: float) -> void:
 
 	if is_on_wall():
 		velocity.x = -velocity.x
+		
+	var direction = to_local(navigation_agent.get_next_path_position()).normalized()
+	velocity = direction * MAX_SPEED
 
 	move_and_slide()
 
@@ -45,7 +53,8 @@ func _physics_process(delta: float) -> void:
 # func destroy() -> void:
 #	_state = State.DEAD
 #	velocity = Vector2.ZERO
-
+func create_path():
+	navigation_agent.target_position = target.global_position
 
 func get_new_animation() -> StringName:
 	var animation_new: StringName
@@ -57,3 +66,7 @@ func get_new_animation() -> StringName:
 	else:
 		animation_new = &"destroy"
 	return animation_new
+
+
+func _on_timer_timeout():
+	create_path()
